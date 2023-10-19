@@ -3,7 +3,7 @@
 library(tidyverse)
 library(readxl)
 
-work_stoppages <- read_excel("annual-listing.xlsx", 
+work_stoppages <- read_excel("data-analysis/annual-listing.xlsx", 
                              sheet = "data", na = "NA", skip = 1)
 
 # x = year ; y = # of idle days (thousands)
